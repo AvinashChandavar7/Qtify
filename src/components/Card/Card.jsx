@@ -6,6 +6,7 @@ const Card = ({ data, type }) => {
   const getCard = (type) => {
     switch (type) {
       case 'album': {
+        // eslint-disable-next-line no-unused-vars
         const { image, follows, title, slug, songs } = data;
         return (
           <Tooltip title={`${songs.length} songs`} placement="top" arrow>

@@ -13,6 +13,7 @@ const CarouselLeft = () => {
     swiper.on('slideChange', function () {
       setIsBegining(swiper.isBeginning);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
